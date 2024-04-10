@@ -22,7 +22,7 @@ export default function CardEvento ({data,endereco,hora,imagem =BannerGatinho}:C
                 height={200}
             ></Image>
         </div>
-            <p className="text-blue-400 mt-2">{data}</p>
+            <p className="text-blue-400 mt-2 w-48 ">{data}</p>
             <p>{endereco}</p>
             <p className="text-blue-400 mt-1">{hora}</p>
     </div>

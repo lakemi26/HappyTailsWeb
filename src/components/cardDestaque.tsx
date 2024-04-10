@@ -15,7 +15,7 @@ export default function CardDestaque ({nome,idade,castracao,imagem =BannerGatinh
 
     return(
     <div className="mt-8 flex flex-col justify-center">
-        <div className="flex justify-center"><Image className="rounded-full shadow-md shadow-blue-400"
+        <div className="flex justify-center"><Image className="rounded-full shadow-md shadow-blue-400 w-40 h-40"
                 src={imagem}
                 alt="imagem parque"
                 width={200}
