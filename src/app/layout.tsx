@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Itim } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 const itim = Itim({ subsets:["latin"],
   weight:"400",
@@ -21,7 +22,9 @@ export default function RootLayout({
     <html lang="pt-br">
       <body className={`${itim.className} text-white`}>
         <Navbar/>
-        {children}</body>
+        {children}
+        <Footer/>
+        </body>
     </html>
   );
 }

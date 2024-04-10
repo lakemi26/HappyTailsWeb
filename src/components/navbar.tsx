@@ -7,16 +7,16 @@ export default function Navbar(){
             <h1 className='text-4xl '><Link href="/">Happy<span className='text-blue-400'>Tails</span></Link></h1>
             <ul className='text-xl flex gap-8'>
                 <li>
-                    <Link href="/">Adote</Link>
+                    <Link href="/adote">Adote</Link>
                 </li>
                 <li>
-                    <Link href="/">Histórias</Link>
+                    <Link href="/historias">Histórias</Link>
                 </li>
                 <li>
-                    <Link href="/">Sobre Nós</Link>
+                    <Link href="/sobreNos">Sobre Nós</Link>
                 </li>
                 <li>
-                    <Link href="/">Login</Link>
+                    <Link href="/login">Login</Link>
                 </li>
             </ul>
 
