@@ -8,7 +8,7 @@ export default function Footer(){
             <h1 className='text-4xl '><Link href="/">Happy<span className='text-blue-400'>Tails</span></Link></h1>
             <ul className='text-xl flex gap-8'>
                 <li>
-                    <Link href="/">Cadastre-se</Link>
+                    <Link href="cadastro">Cadastre-se</Link>
                 </li>
                 <li>
                     <Link href="/">Quem somos?</Link>
