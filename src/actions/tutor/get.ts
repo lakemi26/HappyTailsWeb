@@ -6,8 +6,7 @@ export async function get(id:string){
     }
 
     const response = await fetch(process.env.BASE_URL + `/tutor/${id}`, options)
-    const seila = await response.json()
-    console.log(id)
-    return seila
+    return await response.json()
+    
     
 }
